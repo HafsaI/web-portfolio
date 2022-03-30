@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.bold {
+  font-weight: bold;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  height: 60px;
+  font-family: "Alegreya Sans SC", sans-serif;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.nav--links {
+  font-size: 12px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.resume {
+  padding: 10px;
+  border: 1px solid #ea7e72;
+  border-radius: 3px;
+  margin-left: 15px;
+}
+
+nav > h6 {
+  margin-right: auto;
+  font-size: 22px;
+  color: #ea7e72;
+}
+
+/* Main */
+
+.main {
+  max-width: 800px;
+  margin: auto;
+}
+.main--title {
+  text-align: center;
+  font-family: "Song Myung", serif;
+  font-size: 24px;
+}
+
+.heading {
+  font-family: "Song Myung", serif;
+  font-size: 20px;
+}
+
+/* Projects */
+.projects {
+  margin: 5px;
+}
+.card {
+  /* width: 520px; */
+  font-size: 12px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+
+  /* flex-direction: row; */
+}
+
+.card--image {
+  width: 170px;
+  height: 170px;
+  /* float: left; */
+  border-radius: 5px;
+}
+
+.card--info {
+  padding-left: 10px;
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.card--title {
+  font-size: 18px;
+  padding-top: 0;
+  margin: 0;
+}
+
+.card--boxes {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.card--box {
+  /* height: 20px;
+   width: 20 px; */
+  font-size: 10px;
+  background-color: #ea7e72;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.card--desc {
+  font-size: 12px;
+}
+.card--code {
+  position: absolute;
+  bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+hr.solid {
+  margin-top: 20px;
+  border-top: 1px solid #bbb;
+}
+
+/* Sub Main */
+
+/* Sub Main */
+
+.sub--main {
+  max-width: 520px;
+  margin: 3px;
+}
+.nw-card--title {
+  font-size: 20px;
+  color: #ea7e72;
+  width: 180px;
+  margin: 0;
+}
+.nwcard--desc {
+  font-size: 11px;
+}
+.nw--box {
+  /* height: 20px;
+  width: 50 px; */
+  height: 250px;
+  width: 250px;
+  background-color: #272727;
+  padding: 45px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: gray;
+  position: relative;
+}
+.nwcard--tags {
+  font-size: 10px;
+  font-family: "Segoe UI";
+  color: #ea7e72;
+  font-weight: lighter;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  /* margin: 0 auto; */
+}
+.nwcard--tag {
+  padding: 0px 5px;
+}
+
+.nw--links {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+}
+.nw--icons {
+  stroke-width: 0.5px;
+  padding: 5px;
+  fill: #dfdfdf;
+}
+.nw--icons:hover {
+  filter: invert(65%) sepia(42%) saturate(1039%) hue-rotate(312deg)
+    brightness(97%) contrast(88%);
+  stroke-width: 2;
+}
+/* NW Projects */
+.nwcards-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+/* About */
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+.about--text {
+  /* margin: 30px; */
+  width: 500px;
+  font-size: 15px;
+  padding-right: 20px;
+}
+.about--title {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Song Myung", serif;
+  margin: 0;
+}
+.about--title::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -120px;
+  width: 250px;
+  border-bottom: 0.5px solid #ea7e72;
+}
+.about--title::after {
+  left: auto;
+  right: -270px; /* make the "after" position on the right side of the h1 */
+}
+
+.about--image {
+  width: 230px;
+  height: 320px;
+  border-radius: 15px;
+  padding: 10px;
+  position: absolute;
+  margin-top: 40px;
+}
+.about--box {
+  width: 205px;
+  height: 290px;
+  border-radius: 3px;
+  margin-left: 35px;
+  /* padding: 10px; */
+  margin-top: 75px;
+  border: 2px solid #e99c94;
+}
