@@ -13,13 +13,13 @@ export default [
     },
     {
         id: 2,
-        title: "Rahbar: Ambulance Application",
+        title: "Solace: Ambulance Application",
         image: "../web-portfolio/images/rahba.jpg",
         tech1:  "Html/CSS",
         tech2: "SQL",
         tech3:  ".NET",
-        link:  "https://github.com/HafsaI/Ambulance-Service-Application",
-        description: "This web-application was a course project for CS370: Web And Mobile Development. Rahbar app seeks to simplify and streamline the hassle of contacting an ambulance in case of an emergency by simply sending the precise location of the user/patient to the nearest relevant hospitals, clinics or ambulance services."
+        link:  "https://github.com/HafsaI/Solace",
+        description: "This web-application was a course project for CS323: Software Engineering. Solace app seeks to simplify and streamline the hassle of contacting an ambulance in case of an emergency by simply sending the precise location of the user/patient to the nearest relevant hospitals, clinics or ambulance services."
     },
     {
         id: 3,
