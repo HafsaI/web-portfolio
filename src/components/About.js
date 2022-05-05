@@ -4,6 +4,7 @@ import React from "react"
 export default function About() {
     
     return (
+        <div >
         <div className = "about">
         <div className = "about--text">
          <h6 className = "about--title">about me  </h6> 
@@ -11,9 +12,8 @@ export default function About() {
 
         <p className = "about--para">I am a detail-oriented, hardworking and organized person. If given a task I will try my absolute best.  </p>
 
-        <p className = "about--para"> I am currently looking for internships in the field of Front-End Development and Research. </p>
+        <p className = "about--para"> I am currently looking for internships in the Software Engineering, Front-end Development and Research. </p>
 
-        Contact Me: hafsairfan80@gmail.com
          </div>
           
         <div >
@@ -25,8 +25,15 @@ export default function About() {
          <div className = "about--box">
         </div> */}
          
+       
         </div>
+       
         </div>
+        <footer className="about_footer">
+        <p >Designed & Built by Hafsa Irfan<br></br>
+            hafsairfan80@gmail.com | <a href = "https://github.com/HafsaI"> https://github.com/HafsaI</a> </p>
+        </footer>
+     </div>
         
     )
 }

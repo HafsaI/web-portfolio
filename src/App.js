@@ -18,6 +18,8 @@ export default function App() {
                 <Route path="/work" element = {  <Projects />}  />
                 </Routes>
                 </div>
+
+               
         </div>
     )
 }

@@ -6,8 +6,8 @@ import data from "../data"
 
 export default function Projects() {
   
-    const uni_proj = data.map(item => {
-        if (item.id < 6)
+    const p_proj = data.map(item => {
+        if (item.id < 9)
         return (
             <Cards
                 key={item.id}
@@ -16,19 +16,19 @@ export default function Projects() {
             />
         )
     })  
-     const p_proj = data.map(item => {
-        if (item.id > 5 && item.id < 8)
-        return (
-            <Cards
-                key={item.id}
-                {...item}
+    //  const p_proj = data.map(item => {
+    //     if (item.id > 5 && item.id < 8)
+    //     return (
+    //         <Cards
+    //             key={item.id}
+    //             {...item}
                 
-            />
-        )
-    })
+    //         />
+    //     )
+    // })
      
      const nwprojects = data.map(item => {
-        if (item.id > 7)
+        if (item.id > 8)
         return (
             <NWProjects
                 key={item.id}
@@ -42,13 +42,9 @@ export default function Projects() {
             <p className = 'main--title'>my work</p>
            <div className = "main" >
                 <div >
-                    <p className = 'heading'> university projects</p>
-                    {uni_proj}
-                </div>
-                <hr className="solid"/> 
-                <div>
-                    <p className = 'heading'> personal projects</p>
+                    {/* <p className = 'heading'> projects</p> */}
                     {p_proj}
+
                 </div>
                
            </div>
@@ -61,6 +57,12 @@ export default function Projects() {
             </section>
             
             </div>
+            <footer className="proj_footer">
+                <p >Designed & Built by Hafsa Irfan<br></br>
+                hafsairfan80@gmail.com | <a href = "https://github.com/HafsaI"> https://github.com/HafsaI</a> </p>
+               
+              
+            </footer>
         </div>
     )
 }

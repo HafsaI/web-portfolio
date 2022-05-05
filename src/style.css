@@ -240,3 +240,33 @@ hr.solid {
   margin-top: 75px;
   border: 2px solid #e99c94;
 }
+
+
+/* Footer */
+.about_footer {
+  
+  padding: 1px;
+  /* background-color: rgb(240, 240, 240); */
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  left: 0;
+  width: 100%;
+  font-family:monospace;
+}
+
+.proj_footer{
+  padding: 1px;
+  /* background-color: rgb(240, 240, 240); */
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  position: static;
+  bottom: 0;
+  text-align: center;
+  left: 0;
+  width: 100%;
+  font-family:monospace;
+
+}

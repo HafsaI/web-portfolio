@@ -13,25 +13,28 @@ export default [
     },
     {
         id: 2,
+        title: "Javascript Projects",
+        image: "../web-portfolio/images/js.png",
+        tech1: "Html/CSS",
+        tech2: "Javascript",
+        tech3:"Web Speech API",
+        link:  "https://github.com/HafsaI/Javascript-Projects",
+        description: "This has sub-projects coded in Javascript, like an algorithm visualiser, blackholes, relativity concepts, prescription slips for doctors using speech recognition API etc"
+
+       
+    },
+    {
+        id: 3,
         title: "Solace: Ambulance Application",
-        image: "../web-portfolio/images/rahba.jpg",
+        image: "../web-portfolio/images/solace.jpg",
         tech1:  "Html/CSS",
         tech2: "SQL",
         tech3:  ".NET",
         link:  "https://github.com/HafsaI/Solace",
-        description: "This web-application was a course project for CS323: Software Engineering. Solace app seeks to simplify and streamline the hassle of contacting an ambulance in case of an emergency by simply sending the precise location of the user/patient to the nearest relevant hospitals, clinics or ambulance services."
+        description: "This web-application was a course project for CS323: Software Engineering in which we followed the Agile Methodology. Solace app seeks to simplify and streamline the hassle of contacting an ambulance in case of an emergency by simply sending the precise location of the user/patient to the nearest relevant hospitals, clinics or ambulance services."
     },
+
     {
-        id: 3,
-        title: "E-Voting with Merkle Trees",
-        image: "../web-portfolio/images/merkletrees.jpg",
-        tech1:  "Python",
-        tech2: "HTML",
-        tech3:  "Flask",
-        link:  "https://github.com/HafsaI/E-Voting-With-Merkle-Trees",
-        description: "Secure E-Voting System is a python based project for the course CS 201: Data Structures II. The main focus was handling the security of data before, during and after elections takes place. It also allows auditing of votes to ensure an unbiased voting environment. The server is made based on elections occuring in our university."
-    },
-     {
         id: 4,
         title: "Aestroids",
         image: "../web-portfolio/images/asteroids.jpg",
@@ -41,9 +44,20 @@ export default [
         link:  "https://github.com/HafsaI/Asteroids-Game",
         description: "This was the end of semester project for the course CS224: Object Oriented Programming. OOP techniques and design patterns along with SDL2 were used to build a space-themed shooter arcade game."
     },
-     
+    
     {
         id: 5,
+        title: "E-Voting with Merkle Trees",
+        image: "../web-portfolio/images/vote_.jpg",
+        tech1:  "Python",
+        tech2: "HTML",
+        tech3:  "Flask",
+        link:  "https://github.com/HafsaI/E-Voting-With-Merkle-Trees",
+        description: "Secure E-Voting System is a python based project for the course CS 201: Data Structures II. The main focus was handling the security of data before, during and after elections takes place. It also allows auditing of votes to ensure an unbiased voting environment. The server is made based on elections occuring in our university."
+    },
+
+    {
+        id: 6,
         title: "Puzzle Terror",
         image: "../web-portfolio/images/puzzleterror.jpg",
         tech1: "A* Algorithm",
@@ -56,19 +70,7 @@ export default [
 
        
     },
-    {
-        id: 6,
-        title: "Doctors Got Help",
-        image: "../web-portfolio/images/prescription.jpg",
-        tech1: "Html/CSS",
-        tech2: "Javascript",
-        tech3:"Web Speech API",
-        link:  "https://github.com/HafsaI/DGH",
-        description: "Doctors around the world check patients continuously, one after another and have to quickly write prescriptions. The idea is to have an application that will allow doctors to use speech recognisation to fill prescription slips; thus making things much easier for the doctors."
-        // githublink:  "https://www.behance.net/gallery/140317567/Modular-Furniture-Design/modules/792892585"
-
-       
-    },
+    
     {
         id: 7,
         title: "Generative Art",
@@ -78,12 +80,23 @@ export default [
         tech3:"Design",
         description:  "I love integrating design and programming in different ways. This ongoing project is an explorative process where I like to create unique designs with Creative Coding utilising different technolgies.",
         link:  "https://github.com/HafsaI/Generative-Art",
-        // githublink:  "https://www.behance.net/gallery/140317567/Modular-Furniture-Design/modules/792892585"
 
        
     },
     {
         id: 8,
+        title: "Egg Dropping Problem",
+        image: "../web-portfolio/images/eggs.jpg",
+        tech1: "Python",
+        tech2: "Texmaker",
+        tech3:"Canva",
+        description:  "This project was was a course project for CS412: Algorithms & Analysis. We tried out three different approaches to solve the famous Egg Dropping Problem.",
+        link:  "https://github.com/HafsaI/Egg-Dropping-Problem",
+
+       
+    },
+    {
+        id: 9,
         title: "Modular Furniture for Kids",
         description:  "Sustainable/Modular Workspace for 2-5 year old kids",
         tag1: "Research",
@@ -95,7 +108,7 @@ export default [
        
     },
     {
-        id: 9,
+        id: 10,
         title: "Pukaar",
         description: "One of top 20 out of 60 teams in a 48 hour Hackathon. Featured on U.S. Consulate Karachi Facebook Page. Built a prototype app for addressing mental health issues in women of Pakistan. ",
         tag1: "App Design",
@@ -106,7 +119,7 @@ export default [
        
     },
     {
-        id: 10,
+        id: 11,
         title: "Save The Oceans Poster",
         description: "The poster was a result of a lab project which had the theme of 'Environment'",
         tag1: "Poster Design",
@@ -116,7 +129,7 @@ export default [
        
     },
     {
-        id: 11,
+        id: 12,
         title: "Business Card",
         description: "I made this business card in collaboration with the Studio3 team where I did an internship in August 2021.",
         tag1: "Design",
