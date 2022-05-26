@@ -137,6 +137,16 @@ export default [
         tag3:"Internship",
         externallink:  "https://www.instagram.com/p/CUZYHfhIAR3/"
        
+    },
+    {
+        id: 13,
+        title: "Furnit'AR'",
+        description: "Course project for MGMT 301: Management & Entrepreneurship. Applied Design Thinking as a problem-solving approach. Market Sizing, Forecasted Income Statement, Sensitivity Analysis.",
+        tag1: "Microsoft Excel",
+        tag2: "Mural",
+        tag3:"Entrepreneurship",
+        externallink:  "https://www.behance.net/portfolio/editor?project_id=143272429"
+       
     }
     
     
