@@ -145,7 +145,7 @@ export default [
         tag1: "Microsoft Excel",
         tag2: "Mural",
         tag3:"Entrepreneurship",
-        externallink:  "https://www.behance.net/portfolio/editor?project_id=143272429"
+        externallink:  "https://www.behance.net/gallery/143272429/FURNITAR"
        
     }
     
