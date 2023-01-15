@@ -1,6 +1,6 @@
 import React from "react"
 import {NavLink} from "react-router-dom"
-import pdf from "../resume.pdf";
+import resume from "../resume.pdf";
 
 
 export default function Navbar() {
@@ -35,7 +35,7 @@ export default function Navbar() {
             WORK
             </NavLink>
 
-            <a  className = "nav--links resume" href={pdf} target="_blank" rel="noreferrer"> RESUME</a>
+            <a  className = "nav--links resume" href={resume} target="_blank" rel="noreferrer"> RESUME</a>
 
         </nav>
     )

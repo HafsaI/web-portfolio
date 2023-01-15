@@ -1,6 +1,29 @@
 export default [
     {
         id: 1,
+        title: "Solace: Ambulance Application",
+        image: "../web-portfolio/images/solace.jpg",
+        tech1:  "Html/CSS",
+        tech2: "SQL",
+        tech3:  ".NET",
+        link:  "https://github.com/HafsaI/Solace",
+        description: "This web-application was a course project for CS323: Software Engineering in which we followed the Agile Methodology. Solace app seeks to simplify and streamline the hassle of contacting an ambulance in case of an emergency by simply sending the precise location of the user/patient to the nearest relevant hospitals, clinics or ambulance services."
+    },
+
+    {
+        id: 2,
+        title: "Javascript Projects",
+        image: "../web-portfolio/images/js.png",
+        tech1: "Html/CSS",
+        tech2: "Javascript",
+        tech3:"Web Speech API",
+        link:  "https://github.com/HafsaI/Javascript-Projects",
+        description: "This has sub-projects coded in Javascript, like an algorithm visualiser, blackholes, relativity concepts, prescription slips for doctors using speech recognition API etc"
+
+    },
+
+    {
+        id: 3,
         title: "Computer Graphics Project",
         image: "../web-portfolio/images/cg.png",
         tech1:  "Html/CSS",
@@ -12,30 +35,42 @@ export default [
         
     },
     {
-        id: 2,
-        title: "Javascript Projects",
-        image: "../web-portfolio/images/js.png",
-        tech1: "Html/CSS",
-        tech2: "Javascript",
-        tech3:"Web Speech API",
-        link:  "https://github.com/HafsaI/Javascript-Projects",
-        description: "This has sub-projects coded in Javascript, like an algorithm visualiser, blackholes, relativity concepts, prescription slips for doctors using speech recognition API etc"
-
-       
-    },
-    {
-        id: 3,
-        title: "Solace: Ambulance Application",
-        image: "../web-portfolio/images/solace.jpg",
-        tech1:  "Html/CSS",
-        tech2: "SQL",
-        tech3:  ".NET",
-        link:  "https://github.com/HafsaI/Solace",
-        description: "This web-application was a course project for CS323: Software Engineering in which we followed the Agile Methodology. Solace app seeks to simplify and streamline the hassle of contacting an ambulance in case of an emergency by simply sending the precise location of the user/patient to the nearest relevant hospitals, clinics or ambulance services."
-    },
-
-    {
         id: 4,
+        title: "React Projects",
+        image: "../web-portfolio/images/react.png",
+        tech1:  "CSS/Tailwind CSS",
+        tech2: "MongoDB",
+        tech3:  "React JS",
+        link:  "https://github.com/HafsaI/React-Projects",
+        description: "This includes some React Projects. A bank front-end website, an ecommerce application having frontend and backend and more. "
+       
+        
+    },
+
+    {
+        id: 5,
+        title: "Automated Essay Scoring Project",
+        image: "../web-portfolio/images/essayscore.jpg",
+        tech1:  "Python",
+        tech2: "Machine Learning",
+        tech3:  "Sklearn/Numpy/Nltk/Pandas",
+        link:  "https://github.com/HafsaI/Automated-Essay-Scoring-Project",
+        description: "This was a course project for CS351: Artifical Intelligence. An automated system that grades essays after training the scores of hand-graded essays.Our solution extracts the features and finds the relationship between features and essay sets using an error metric"
+    },
+
+    {
+        id: 6,
+        title: "Algorithm Visualizer",
+        image: "../web-portfolio/images/algorithm.jpg",
+        tech1:  "Java",
+        tech2:  "JavaFX",
+        tech3:  "Algorithms",
+        link:  "https://github.com/HafsaI/AlgorithmVisualizer",
+        description: "This was a course project for CS324: Advanced Java Programming. This project is an algorithm visualization of different types of sorting algorithms."
+    },
+
+    {
+        id: 7,
         title: "Aestroids",
         image: "../web-portfolio/images/asteroids.jpg",
         tech1:  "C++",
@@ -46,7 +81,7 @@ export default [
     },
     
     {
-        id: 5,
+        id: 8,
         title: "E-Voting with Merkle Trees",
         image: "../web-portfolio/images/vote_.jpg",
         tech1:  "Python",
@@ -57,7 +92,7 @@ export default [
     },
 
     {
-        id: 6,
+        id: 9,
         title: "Puzzle Terror",
         image: "../web-portfolio/images/puzzleterror.jpg",
         tech1: "A* Algorithm",
@@ -72,7 +107,7 @@ export default [
     },
     
     {
-        id: 7,
+        id: 10,
         title: "Generative Art",
         image: "../web-portfolio/images/art.png",
         tech1: "Python",
@@ -84,7 +119,7 @@ export default [
        
     },
     {
-        id: 8,
+        id: 11,
         title: "Egg Dropping Problem",
         image: "../web-portfolio/images/eggs.jpg",
         tech1: "Python",
@@ -96,7 +131,7 @@ export default [
        
     },
     {
-        id: 9,
+        id: 12,
         title: "Modular Furniture for Kids",
         description:  "Sustainable/Modular Workspace for 2-5 year old kids",
         tag1: "Research",
@@ -108,7 +143,7 @@ export default [
        
     },
     {
-        id: 10,
+        id: 13,
         title: "Pukaar",
         description: "One of top 20 out of 60 teams in a 48 hour Hackathon. Featured on U.S. Consulate Karachi Facebook Page. Built a prototype app for addressing mental health issues in women of Pakistan. ",
         tag1: "App Design",
@@ -119,7 +154,7 @@ export default [
        
     },
     {
-        id: 11,
+        id: 14,
         title: "Save The Oceans Poster",
         description: "The poster was a result of a lab project which had the theme of 'Environment'",
         tag1: "Poster Design",
@@ -129,7 +164,7 @@ export default [
        
     },
     {
-        id: 12,
+        id: 15,
         title: "Business Card",
         description: "I made this business card in collaboration with the Studio3 team where I did an internship in August 2021.",
         tag1: "Design",
@@ -139,7 +174,7 @@ export default [
        
     },
     {
-        id: 13,
+        id: 16,
         title: "Furnit'AR'",
         description: "Course project for MGMT 301: Management & Entrepreneurship. Applied Design Thinking as a problem-solving approach. Market Sizing, Forecasted Income Statement, Sensitivity Analysis.",
         tag1: "Microsoft Excel",

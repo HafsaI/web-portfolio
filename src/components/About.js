@@ -10,7 +10,7 @@ export default function About() {
          <h6 className = "about--title">about me  </h6> 
          <p className = "about--para"> Hello! I am Hafsa Irfan. I am in my final year of BS Computer Science with a minor in Communication and Design. I have learned various technologies, programming languages, and problem-solving skills since last few years. I am interested in the fields of Software Engineering, Machine Learning and Product Design. </p>
 
-        <p className = "about--para">I am a detail-oriented, hardworking and organized person. I hope to work with companies to create aesthetic and inclusive products. </p>
+        <p className = "about--para">I am a detail-oriented, hardworking and organized person. I hope to work with companies on impactful projects. </p>
 
          </div>
           

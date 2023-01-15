@@ -7,7 +7,7 @@ import data from "../data"
 export default function Projects() {
   
     const p_proj = data.map(item => {
-        if (item.id < 9)
+        if (item.id < 12)
         return (
             <Cards
                 key={item.id}
@@ -28,7 +28,7 @@ export default function Projects() {
     // })
      
      const nwprojects = data.map(item => {
-        if (item.id > 8)
+        if (item.id > 11)
         return (
             <NWProjects
                 key={item.id}
